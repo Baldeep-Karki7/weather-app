@@ -1,0 +1,61 @@
+.hw{
+    background-color: rgba(142, 141, 141, 0.5);
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    color: black;
+}
+.hw1{
+    flex: 1;
+    margin-left: 20px;
+}
+.title{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.hw2{
+    display: flex;
+    flex-direction: row;
+    flex: 6;
+    column-gap: 10px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+}
+.hw2::-webkit-scrollbar{
+    display: none;
+}
+.eachHour{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 70px;
+}
+.ehIcon,.ehTemp,.ehTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ehTime{
+    flex: 0.8;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ehIcon{
+    flex: 1;
+
+}
+.ehTemp{
+    flex: 0.8;
+    font-size: 14px;
+    font-weight: 500;
+}
+.line{
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    width: 100%;
+}
+

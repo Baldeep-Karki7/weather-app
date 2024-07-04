@@ -1,0 +1,12 @@
+.dateTime{
+    display: flex;
+    background-color: rgba(142, 141, 141, 0.5);
+    width: 90%;
+    margin: 15px 0px 15px 25px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+}
+.dt1 span{
+    font-size: 23px;
+}
